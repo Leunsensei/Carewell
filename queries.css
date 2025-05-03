@@ -71,4 +71,43 @@
 }
 
 
-@media all and (max-width: 975px) {}
+@media all and (max-width: 450px) {
+
+    .heading {
+        margin-left: 0px;
+        margin-bottom: 6px;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .image-woman {
+        height: 500px;
+        position: relative;
+        z-index: 2;
+        right: -65px;
+    }
+
+    .mission {
+        flex-direction: row;
+        height: 150px;
+        justify-self: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    
+    .image-body {
+        height: 100%;
+        margin-right: 10px;
+    }
+    
+    .header-2 {
+        font-family: "Caprasimo", serif;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    
+    .write-up-1 {
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+}
