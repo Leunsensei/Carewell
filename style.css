@@ -258,9 +258,13 @@ body {
     margin-left: 50px;
 }
 
-.store {
-    margin-left: 50px;
-    height: 60px;
+.store{
+    display: flex;
+    justify-content: space-around;
+}
+
+.store img {
+    
 }
 
 .screen {
